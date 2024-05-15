@@ -1,0 +1,62 @@
+GET http://localhost:4000/health
+
+### 
+
+# Post Player
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "Musfiqur Rahim",
+    "country": "Bangladesh",
+    "rank": 3
+}
+
+###
+
+# Get All Player
+
+GET http://localhost:4000
+
+###
+
+# Get Single Player
+
+GET http://localhost:4000/2lvB70A1g
+
+###
+
+# Patch Single Player
+
+PATCH http://localhost:4000/--W6Y5qcF
+Content-Type: application/json
+
+{
+    "name": "Masrafi Bin Murtoja"
+}
+
+
+###
+
+# Put Single Player
+
+PUT  http://localhost:4000/8PgEZ_2Ay
+Content-Type: application/json
+
+{
+    "name": "MD Musfiqur Rahim",
+    "country": "BD",
+    "rank": 5
+}
+
+
+###
+
+# Delete Single Player
+
+DELETE  http://localhost:4000/2lvB70A1g
+
+
+###
+GET https://api.github.com/users/mhhasanmehedi
